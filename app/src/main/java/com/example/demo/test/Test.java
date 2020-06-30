@@ -2,15 +2,86 @@ package com.example.demo.test;
 
 public class Test {
 
-    public boolean checkTwoSum(int[] nums, int k) {
-        for (int n : nums) {
-            for (int i : nums) {
-                if (n != i) {
-                    return n + i == k;
-                }
-            }
-        }
-        return false;
+    public static void main(String[] arg) {
+        B b = new B();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(b::test2).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+        new Thread(B::test4).start();
+//        new Thread(b::test5).start();
+
     }
+
 
 }
